@@ -1,4 +1,4 @@
-package AbstractFactoryMethod;
+package Main;
 
 public interface Furniture {
 

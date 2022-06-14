@@ -1,11 +1,18 @@
-package AbstractFactoryMethod;
+package Main;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args)
     {
         AbstractFactory factory;
-        int model=0;
-        if(model==1)
+        
+        Scanner input=new Scanner( System.in );
+        
+        String fact=input.nextLine();
+        String frn=input.nextLine();
+        
+        if( fact.equals("modern") )
         {
             factory=new ModernFactory();
         }
@@ -14,11 +21,9 @@ public class Main {
             factory=new VictorianFactory();
         }
 
-        int sect=2;
         Furniture f1;
-
-
-        if(sect==0)
+        
+        if(frn.equals("chair") )
         {
             f1=factory.createChair();
         }

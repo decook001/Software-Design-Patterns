@@ -1,4 +1,4 @@
-package AbstractFactoryMethod;
+package Main;
 
 public class ModernFactory extends AbstractFactory {
 

@@ -1,4 +1,4 @@
-package AbstractFactoryMethod;
+package Main;
 
 public class VictorianFactory extends AbstractFactory {
     @Override
